@@ -34,7 +34,7 @@ class PenContext(TurtleContext):
 
 class PenUpContext(PenContext):
     def __init__(self, turtle):
-        super().__init__(turtle, pendown=True)
+        super().__init__(turtle, pendown=False)
 
 
 class PenDownContext(PenContext):
